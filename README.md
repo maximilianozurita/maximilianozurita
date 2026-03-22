@@ -1,7 +1,22 @@
-Hi, my name is Maximiliano Zurita.  👋
+# Maxi Zurita
 
-<!--
-**maximilianozurita/maximilianozurita** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend Developer | Data | AI
 
-- 🔭 I’m currently working in SMRC
-- 🌱 I’m currently learning Full stack web developer in Digital House and programming technician in Universidad tecnologica nacional.
+## Sobre mí
+- +4 años en desarrollo (Python, Perl, JS, Go, C, SQL, Linux)
+- Experiencia en adtech (datos reales, escala)
+- Interesado en IA aplicada (predicción, analytics)
+
+## Proyectos destacados
+- [smart-cv-builder]((https://github.com/maximilianozurita/smart-cv-builder))
+- [ai-portfolio-analyzer](https://github.com/maximilianozurita/ai-portfolio-analyzer)
+
+## Stack
+- Backend: Python, Perl, Node.js, Flask
+- DB: MySQL, MariaDB, SQL Server
+- Infra: Linux, Bash Script
+- AI: Python
+
+## Contacto
+- LinkedIn: https://www.linkedin.com/in/maximilianozurita/
+- Email: maxi.zurita.seb@gmail.com
