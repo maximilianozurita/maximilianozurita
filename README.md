@@ -1,6 +1,7 @@
 # Maxi Zurita
 
 Backend Developer | Data | AI
+Portfolio: https://maximilianozurita.github.io/
 
 ## Sobre mí
 - +4 años en desarrollo (Python, Perl, JS, Go, C, SQL, Linux)
