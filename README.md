@@ -1,7 +1,7 @@
 # Maxi Zurita
 
 Backend Developer | Data | AI
-Portfolio: https://maximilianozurita.github.io/
+- Portfolio: https://maximilianozurita.github.io/
 
 ## Sobre mí
 - +4 años en desarrollo (Python, Perl, JS, Go, C, SQL, Linux)
@@ -9,7 +9,7 @@ Portfolio: https://maximilianozurita.github.io/
 - Interesado en IA aplicada (predicción, analytics)
 
 ## Proyectos destacados
-- [smart-cv-builder]((https://github.com/maximilianozurita/smart-cv-builder))
+- [smart-cv-builder](https://github.com/maximilianozurita/smart-cv-builder)
 - [ai-portfolio-analyzer](https://github.com/maximilianozurita/ai-portfolio-analyzer)
 
 ## Stack
