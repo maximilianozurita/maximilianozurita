@@ -1,81 +1,91 @@
 # Maxi Zurita
 
-**Backend Developer | Data Engineer | Applied AI**
+**Backend Developer | Data Engineer | AI & Agents**
 
-🌐 Portfolio: https://maximilianozurita.github.io/  
-🔗 LinkedIn: https://www.linkedin.com/in/maximilianozurita/  
-📩 Email: maxi.zurita.seb@gmail.com  
+[![Portfolio](https://img.shields.io/badge/Portfolio-maximilianozurita.github.io-0a0a0a?style=flat&logo=github)](https://maximilianozurita.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-maximilianozurita-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/maximilianozurita/)
+[![Email](https://img.shields.io/badge/Email-maxi.zurita.seb%40gmail.com-D14836?style=flat&logo=gmail)](mailto:maxi.zurita.seb@gmail.com)
 
 ---
 
 ## 🚀 Sobre mí
-Backend developer con +4 años de experiencia construyendo sistemas en producción, principalmente en entornos de **alta escala (adtech)**.
 
-- Foco en **datos, performance y arquitectura backend**
-- Experiencia trabajando con **datos reales (volumen + complejidad)**
-- Actualmente migrando hacia **IA aplicada a problemas concretos (analytics, predicción, automatización)**
+Backend developer con +4 años en sistemas de producción de alta escala (adtech).  
+Especializado en **pipelines de datos, integración de LLMs y agentes de IA** sobre problemas reales.
+
+- Datos reales: volumen, complejidad, fuentes heterogéneas
+- LLMs en producción: multi-provider, fallback, prompting estructurado
+- Agentes autónomos para automatización y generación de artefactos
+- Arquitectura backend orientada a performance y observabilidad
 
 ---
 
 ## 🧠 Proyectos destacados
 
 ### 🔹 [smart-cv-builder](https://github.com/maximilianozurita/smart-cv-builder)
-Generador de CVs impulsado por IA que:
-- Adapta contenido al puesto objetivo
-- Optimiza keywords para ATS
-- Automatiza redacción basada en contexto
+Agente de generación de CVs que adapta perfil, skills y experiencia a una oferta laboral concreta.
+Pipeline LLM con parsing en 3 capas, fallback multi-provider y scoring ATS.
+Salida: PDF + Word via Jinja2 + WeasyPrint + python-docx.
 
-**Stack:** Python, LLMs
+**Stack:** FastAPI · Pydantic v2 · Jinja2 · WeasyPrint · Anthropic · OpenAI · Gemini · Groq · xAI
 
 ---
 
 ### 🔹 [ai-portfolio-analyzer](https://github.com/maximilianozurita/ai-portfolio-analyzer)
-Análisis automatizado de portafolios de inversión:
-- Evaluación de riesgo y diversificación
-- Generación de insights usando modelos de lenguaje
-- Enfoque en explainability
+Portfolio de inversión con precios en tiempo real y análisis AI estructurado en 7 secciones.
+Arquitectura Flask de 3 capas (routes → services → models), frontend reactivo con caché de precios.
 
-**Stack:** Python, AI/LLMs
+**Stack:** Flask · MySQL · SvelteKit · ECharts · Docker · OpenAI · Gemini · OpenRouter · yfinance
 
 ---
 
 ### 🔹 [arg-financial-local](https://github.com/maximilianozurita/arg-financial-local)
-Pipeline de datos económicos argentinos:
-- Integración de múltiples fuentes (BCRA, INDEC, dólar, riesgo país)
-- Procesamiento y normalización
-- Export a datasets estáticos (CSV / SQLite)
+Pipeline ETL de indicadores económicos argentinos. Integra 5 fuentes oficiales (BCRA, INDEC,
+Ministerio de Economía, Bluelytics, ArgentinaDatos), deduplica y exporta a CSV/Parquet via cron.
 
-**Stack:** Python, SQLite, ETL
+**Stack:** Python · httpx · pandas · pyarrow · SQLite
 
 ---
 
 ### 🔹 [arg-financial-data](https://github.com/maximilianozurita/arg-financial-data)
-Dataset público de indicadores económicos:
-- +20 series históricas
-- Formatos: CSV y Parquet
-- Actualización automática
+Dataset público con +23 series históricas de Argentina (1994–presente), actualización diaria automática.
+Accesible via Python, DuckDB o URLs raw de GitHub — sin autenticación.
 
-**Stack:** Data Engineering
+**Stack:** CSV · Parquet · DuckDB · pandas
+
+---
+
+### 🔹 [makeDoc](https://github.com/maximilianozurita/makeDoc)
+Plugin para Claude Code que genera documentación técnica completa analizando el código fuente.
+Modos: creación desde cero, actualización incremental, ejecución como subagente.
+
+**Stack:** Claude Code · Anthropic SDK · Markdown
 
 ---
 
 ## 🛠️ Stack técnico
 
 **Backend**
-- Python, Perl, Node.js (JS), Go, C
+Python · FastAPI · Flask · JavaScript · TypeScript · Bash
 
-**Data & DB**
-- MySQL, MariaDB, SQL Server, SQLite
+**Frontend**
+SvelteKit · Tailwind CSS
 
-**Infra & Tools**
-- Linux, Bash scripting
+**Data & Storage**
+pandas · pyarrow · DuckDB · MySQL · SQLite
 
-**AI / Data**
-- Python (data pipelines, model integration, analytics)
+**AI / Agentes**
+Anthropic · OpenAI · Gemini · Groq · LLM pipelines · multi-provider fallback
+
+**Infra**
+Docker · Linux · cron · Git
 
 ---
 
 ## 🎯 Intereses actuales
-- Sistemas de **data analytics escalables**
-- **Predicción económica (Argentina)** usando datos reales
-- Aplicaciones de **LLMs en backend productivo**
+- Agentes autónomos aplicados a datos y automatización
+- Sistemas de analytics escalables con datos económicos reales
+- LLMs en backend productivo: latencia, costo, confiabilidad
+- Predicción económica (Argentina) con series temporales reales
+
+---
